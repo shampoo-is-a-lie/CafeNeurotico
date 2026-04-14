@@ -1,3 +1,14 @@
+# =====================================================================
+# CAFE NEUROTICO - GAME LIBRARY MANAGER
+# =====================================================================
+# Note: This entire codebase was generated using AI assistance.
+# The structure, logic, and design were human-directed, but the 
+# Python implementation was handled by the machine. 
+# Expect unconventional patterns.
+# This application was 100% conceptualized by a human and 100% coded by AI. Built to solve a personal obsession with library management.
+# Feel free to fork it, refactor it, or laugh at it
+# =====================================================================
+
 import sys, csv, os, urllib.parse, urllib.request, json, shutil, sqlite3, zipfile, subprocess, shlex, time
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
