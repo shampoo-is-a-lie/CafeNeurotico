@@ -94,7 +94,7 @@ I provided the neurotic vision, the logic, and the UI/UX design. The AI wrote th
 
 Feel free to fork it, refactor it, or laugh at it.
 
-> **Developer's Note:** This application was 100% conceptualized by a human and 100% coded by AI. Built to solve a personal obsession with library management.
+> **Developer's Note:** This application was 100% conceptualized by a human and 100% coded by AI. Built to solve a personal obsession with library management. Don't mind the playful tone of this README, it's all for fun, I do this just for fun.
 
 <div align="center">
   <strong>/// END OF FILE ///</strong><br>
