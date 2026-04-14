@@ -35,9 +35,9 @@ Want to import your whole Steam or GOG library? Hit the **Connect** button in th
 
 <img src="images/Connect.png" width="300">
 
-* **STEAM:** Input your SteamID64 and API key. Boom.
+* **STEAM:** Input your SteamID64 and API key. Boom. The system grabs your library and injects the launch commands automatically.
 * **GOG:** Logs you in through the internal browser, scrapes your owned assets, and pulls them in.
-* **EPIC:** Use the Import CSV tool in the Tools menu after exporting from Heroic.
+* **EPIC:** They hate bots. So use the Import CSV tool in the Tools menu after exporting from GOG Galaxy or Heroic..
 
 > **⚠️ ATTENTION: EXECUTION PROTOCOL**
 > It's not a launcher per se. You still need Steam, Heroic, or whatever you use to launch your games, since it will execute the command you provide. Anything goes, I mean, you can open your calculator app if you wish so.
