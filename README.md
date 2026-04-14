@@ -88,7 +88,7 @@ After doing all that (and more), you can create a complete backup, everything in
 
 ## 🤖 SYSTEM ORIGIN: HUMAN BRAIN + MACHINE
 
-**FULL DISCLOSURE:** I am an architect, not a traditional code-monkey. Every single line of code in Cafe Neurotico was generated, assembled, and debugged using advanced AI assistance (specifically Google's Gemini). 
+**FULL DISCLOSURE:** I am an architect, not a traditional developer. Every single line of code in Cafe Neurotico was generated, assembled, and debugged using advanced AI assistance (specifically Google's Gemini). 
 
 I provided the neurotic vision, the logic, and the UI/UX design. The AI wrote the Python syntax. If you dig into the source code and find unconventional architecture or weird redundancies, that is the machine learning at work. 
 
