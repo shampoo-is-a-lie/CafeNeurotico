@@ -1,0 +1,13 @@
+# Ignore database and cache
+games.db
+__pycache__/
+*.pyc
+
+# Ignore the AppImage build directories
+build/
+dist/
+*.AppDir/
+*.AppImage
+
+# Ignore OS junk
+.DS_Store

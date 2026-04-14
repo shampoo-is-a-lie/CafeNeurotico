@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe Neurotico - Official User Manual</title>
+    <style>
+        @media print {
+            body { background-color: #0d0b14 !important; -webkit-print-color-adjust: exact; }
+            .page-break { page-break-before: always; }
+        }
+        body {
+            background-color: #0d0b14; /* Dark navy from the cover */
+            background-image: linear-gradient(0deg, #0d0b14 0%, #161124 100%);
+            color: #e0e0e0;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 3px solid #b500ff; /* Neon Purple */
+            padding: 40px;
+            box-shadow: 8px 8px 0px rgba(0, 229, 255, 0.4); /* Neon Cyan shadow */
+        }
+        h1, h2, h3 {
+            font-family: "Impact", "Arial Black", sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 3px 3px 0px #00e5ff, -3px -3px 0px #b500ff;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 2.2em;
+            color: #00e5ff;
+            border-bottom: 2px solid #b500ff;
+            padding-bottom: 5px;
+            margin-top: 50px;
+        }
+        h3 { font-size: 1.6em; color: #b500ff; }
+        p, li { font-size: 1.15em; }
+        ul, ol { margin-bottom: 20px; }
+        li { margin-bottom: 12px; }
+        strong { color: #ffffff; }
+
+        .box {
+            border: 2px dashed #00e5ff;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: rgba(0, 229, 255, 0.05);
+        }
+        .box-title {
+            color: #00e5ff;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        img.screenshot {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 30px auto;
+            border: 3px solid #b500ff;
+            box-shadow: 5px 5px 0px #00e5ff;
+        }
+        img.cover-img {
+            max-width: 70%;
+            border: none;
+            box-shadow: none;
+        }
+        hr {
+            border: 0;
+            height: 2px;
+            background: #b500ff;
+            margin: 40px 0;
+        }
+        .center { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="center">
+            <img src="images/Manual_Cover.jpg" class="screenshot cover-img" alt="Cafe Neurotico Cover Art">
+        </div>
+
+        <h1>CAFE NEUROTICO</h1>
+        <h3 class="center" style="color: #e0e0e0;">SYS_MANUAL_V1.0 // INITIALIZATION</h3>
+
+        <hr>
+
+        <h2>INTRODUCTION: THE MANIFESTO</h2>
+        <div class="box">
+            <p class="box-title">YOUR LIBRARY. MANAGEABLE. SEARCHABLE. PORTABLE. BACKUPABLE.</p>
+            <p><em>(Wait, is that even a word?)</em></p>
+            <p>Are you neurotic, even obsessive about your library? Data, Year, Genre, Tags... I am! Want to have full control of it? Search it? Edit it? Hell yeah!</p>
+            <ul>
+                <li>Want to import your whole Steam or GOG library? <strong>Do it!</strong></li>
+                <li>Don't want to import your whole library? Add game by game (Automated or Manually).</li>
+                <li>Want to be able to customize every piece of info about the game, even images easily? Done.</li>
+                <li>Want to batch import a lot of games at once but they don't belong to any library? The app will generate a Template CSV file that you can edit and save in any Excel style app, you save it and then import it easily.</li>
+                <li>Want to be able to check Youtube videos (logged in or not), IsThereADeal, HowLongToBeat, ProtonDB, and store pages about that game?</li>
+            </ul>
+            <p>I've avoided menus as much as possible. I want to be able to see anything I need right there on the screen, in any of the views, so don't expect any long menus here, there's almost nothing.</p>
+        </div>
+
+        <div class="page-break"></div>
+
+
+        <h2>1. QUICK START: INITIALIZE YOUR ARSENAL</h2>
+        <p>Before we dive in, let's get a few technical disclaimers out of the way. <strong>This app can be heavy.</strong> It contains a full-fledged Chromium-based web browser, responsible for importing libraries and for the navigation when the link buttons are clicked. Also, cover images in gallery view consume RAM, so keep those things in mind.</p>
+
+        <p>Oh, I almost forgot to say: all data is stored in a <strong>single folder</strong> created in the same folder of the app. Only one. Right there. No searching around the system in a sea of config folders (nothing wrong with that, I just didn't want it that way).</p>
+
+        <h3>CONNECTING YOUR STORES</h3>
+        <p>Want to import your whole Steam or GOG library? Hit the <strong>Connect</strong> button in the Menu sector on the left.</p>
+
+        <img src="images/Connect.png" class="screenshot" alt="Connect Menu" style="max-width: 400px;">
+
+        <ul>
+            <li><strong>STEAM:</strong> Input your SteamID64 and API key. Boom. The system grabs your library and injects the launch commands automatically.</li>
+            <li><strong>GOG:</strong> Logs you in through the internal browser, scrapes your owned assets, and pulls them in.</li>
+            <li><strong>EPIC:</strong> They hate bots. So use the <strong>Import CSV</strong> tool in the Tools menu after exporting from GOG Galaxy or Heroic.</li>
+        </ul>
+
+        <h3>ADDING GAMES ONE BY ONE</h3>
+        <p>Don't want to import your whole library? No problem. Use the <strong>+ Add Game</strong> button at the top left to inject assets individually.</p>
+
+        <img src="images/Add_Game_Button.png" class="screenshot" alt="Add Game Menu" style="max-width: 350px;">
+
+        <ul>
+            <li><strong>Automated Add (Steam):</strong> Type a name, and let the system pull the metadata and art from Steam's database.</li>
+            <li><strong>Manual Add (Blank):</strong> Total blank slate. You fill in the data.</li>
+        </ul>
+
+        <div class="box">
+            <p class="box-title">ATTENTION: EXECUTION PROTOCOL</p>
+            <p>It's not a launcher per se. You still need Steam, Heroic, or whatever you use to launch your games, since it will execute the command you provide. Anything goes, I mean, you can open your calculator app if you wish so.</p>
+            <p><em>(Steam games will have this command added automatically when importing your library. You will need to add the command for the other games manually though).</em></p>
+        </div>
+
+        <hr>
+
+
+        <div class="page-break"></div>
+
+        <h2>2. VISUAL RECON: THE THREE VIEWS</h2>
+        <p>There are 3 views: List, Gallery, and Detailed (this one opens only when a game is double-clicked). The left sidebar remains your constant command center for filtering and searching.</p>
+
+        <h3>THE LIST VIEW</h3>
+        <p>For the true data obsessive. A high-density spreadsheet showing you everything at a glance: Launch status, Favs, Want, Store, Genre, Release Year, Metacritic, HLTB, and Acquired date. Click any header to sort your massive collection instantly.</p>
+
+        <img src="images/List_View1.jpg" class="screenshot" alt="List View Interface">
+
+        <h3>THE GALLERY VIEW</h3>
+        <p>All about the cover art. A highly visual, grid-based layout. Use the top control panel to adjust the grid density (3, 5, 7, or 10 columns) and sort by A-Z, Favs, or Want to Play.</p>
+        <p><em>(Remember the manifesto: Loading a massive grid of high-res covers consumes RAM. You have been warned.)</em></p>
+
+        <img src="images/Gallery_View3.jpg" class="screenshot" alt="Gallery View Interface">
+
+        <hr>
+
+
+        <div class="page-break"></div>
+
+        <h2>3. DETAILED VIEW: FULL OVERRIDE</h2>
+        <p>Want to be able to customize every piece of info about the game, even images easily? Double-click any entry to enter the Detailed View.</p>
+
+        <img src="images/Detailed_View1.jpg" class="screenshot" alt="Detailed View Interface">
+
+        <p>This app can do a lot of things that I used to have to do manually, but not everything. For example, the <strong>date of purchase</strong> (Acquired), which I like to keep record of. So prepare to insert some data manually (or not, if you don't care, that's okay too).</p>
+        <p>Use the checkboxes at the top to flag games as Favorite, Want to Play, Playing, or Finished. The bottom left holds your Launch Game execution button, Save Changes, and the destructive Remove Game command.</p>
+
+        <h3>IMAGE MANIPULATION</h3>
+        <p>Right below the cover art and screenshots, you'll find the image dropdowns.</p>
+
+        <img src="images/Screenshot_Button.png" class="screenshot" alt="Screenshot Dropdown Menu" style="max-width: 300px;">
+
+        <p>You can Auto-Fetch from Steam, manually add your own local files, or clear the image entirely if the data is corrupted or you just want a clean slate.</p>
+
+        <hr>
+
+        <h2>4. EXTERNAL INTEL & INTERNAL BROWSER</h2>
+        <p>Want to be able to check YouTube videos (logged in or not), IsThereAnyDeal, HowLongToBeat, ProtonDB, or store pages about that game? The buttons are right there under the image controls.</p>
+
+        <img src="images/YouTube_Auto_Search.jpg" class="screenshot" alt="Internal Browser Loading YouTube">
+
+        <p>Because the app contains a full-fledged Chromium-based web browser, clicking these links doesn't kick you out to your desktop browser. It opens a secure internal window, automatically searching for the game's title so you can verify gameplay footage, check Linux compatibility, or see how long it takes to beat, all without leaving the command center.</p>
+
+        <hr>
+
+
+        <div class="page-break"></div>
+
+        <h2>5. AUTOMATED SCRAPING & SGDB COVERS</h2>
+        <p>If you just added a blank entry or your Steam fetch missed something, hit the massive blue <strong>✨ Auto-Fetch All Missing Data</strong> button in the Detailed View. The app will scrape the network to fill in the developer, publisher, release year, tags, and grab official artwork.</p>
+
+        <h3>STEAMGRIDDB INTEGRATION</h3>
+        <p>Official covers are fine, but sometimes you want something custom. If you have your free SteamGridDB API key loaded into the system, hit the <strong>SGDB</strong> button under the cover art.</p>
+
+        <img src="images/SteamGridDB_Fetch.jpg" class="screenshot" alt="SteamGridDB Cover Selection">
+
+        <p>A window will pull down the highest-rated 600x900 custom covers for your exact game. Double-click your favorite, and it instantly overwrites the local database image. Perfection.</p>
+
+        <hr>
+
+        <h2>6. THE TOOLS MENU: BATCH OPERATIONS & BACKUPS</h2>
+        <p>Click the <strong>Tools</strong> button in the main left sidebar. This is your administrative console.</p>
+
+        <img src="images/Tools.png" class="screenshot" alt="Tools Menu Interface" style="max-width: 350px;">
+
+        <h3>BATCH FETCHING & CSV IMPORTS</h3>
+        <p>Want to batch import a lot of games at once but they don't belong to any library? The app will generate a <strong>Template CSV file</strong> that you can edit and save in any Excel style app, you save it and then import it easily in the app using the <strong>Import CSV</strong> button.</p>
+        <p>Once imported, use the <strong>Batch Fetch</strong> commands to command the system to scan your entire library and automatically fill in missing info, artwork, or descriptions all at once.</p>
+
+        <h3>TOTAL SYSTEM BACKUP</h3>
+        <div class="box">
+            <p>After doing all that (and more), you can create a complete backup, everything included, in a single .zip file, and when installing on another machine, just recover it from within the app. Or if you wish, just zip the folder that contains all data.</p>
+        </div>
+        <ul>
+            <li><strong>Save Backup (.zip):</strong> Packs your entire <code>games.db</code> and every single cover and screenshot into one portable archive.</li>
+            <li><strong>Recover Backup (.zip):</strong> Instantly overwrites a fresh install with your meticulously crafted archive.</li>
+            <li><strong>Clear Browser Data:</strong> Use this to purge the internal Chromium cache if your GOG or Steam logins ever get stuck.</li>
+        </ul>
+
+        <hr>
+
+
+        <div class="page-break"></div>
+
+        <div style="text-align: center; margin-top: 80px; padding: 20px; border: 1px solid #b500ff; background-color: rgba(181, 0, 255, 0.1);">
+            <p style="color: #00e5ff; font-weight: bold;">=========================================</p>
+            <h3 style="color: #ffffff; text-shadow: 2px 2px 0px #b500ff;">/// END OF FILE ///</h3>
+            <p style="color: #e0e0e0; font-family: monospace;">SYSTEM OPERATIONS CONCLUDED.</p>
+            <p style="color: #e0e0e0; font-family: monospace;">COPYRIGHT &copy; CAFE NEUROTICO SYSTEMS.</p>
+            <p style="color: #b500ff; font-weight: bold;">NOW GO PLAY SOME GAMES.</p>
+            <p style="color: #00e5ff; font-weight: bold;">=========================================</p>
+        </div>
+
+    </div>
+</body>
+</html>
