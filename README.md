@@ -54,7 +54,7 @@ For the true data obsessive. A high-density spreadsheet showing you everything a
 ![List View](images/List_View1.jpg)
 
 ### The Gallery View
-All about the cover art. A highly visual, grid-based layout. *(Remember the manifesto: Loading a massive grid of high-res covers consumes RAM. You have been warned.)*
+All about the cover art. A highly visual, grid-based layout. *(Remember the manifesto: Loading a massive grid of high-res covers consumes RAM. Nothing crazy, but keep that in mind.)*
 
 ![Gallery View](images/Gallery_View3.jpg)
 
