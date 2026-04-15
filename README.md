@@ -97,11 +97,27 @@ Feel free to fork it, refactor it, or laugh at it.
 > **Developer's Note:** This application was 100% conceptualized by a human and 100% coded by AI. Built to solve a personal obsession with library management. Don't mind the playful tone of this README, it's all for fun, I do this just for fun.
 
 
-> **Developer's Note 2:** I would like to address the elephant in the room: **AI**, yeah, although it would be tempting to think that I gave a prompt like "Make an app like this" or "Make a copy of the whatever software", and it auto-magically just worked, it couldn't be further from the truth. <br> 
+> **"No man is better than a machine, but no machine is better than a man with a machine" - Paul Tudor Jones [Tudor Investment Corporation]** <br>
+would like to address the elephant in the room: **AI**, yeah, although it would be tempting to think that I gave a prompt like "Make an app like this" or "Make a copy of the whatever software", and it auto-magically just worked, it couldn't be further from the truth. <br> 
 It's a very personal project that started just like a way to manage my own Excel CSV games file (which was huge BTW), then I've made many incremental changes, as I was having more and more ideas of what I wanted. Changes that sometimes broke the whole thing. Steam integration was incredibly frustrating, I had to try many different approaches, just to give an example. At one point the code started having truncation issues when compiling to AppImage, due to the size, issues that I needed to address. AI still needs someone to tell it what to do. <br>
 It has been a journey, It's been a couple of months now and I've covered a massive amount of ground, from the initial idea, the Python UI design, the database logic, the AppImage compilation, and drafting the manual—we are easily looking at somewhere between 160 to 180+ prompts for the entire project. Not to mention hours of researching for solutions. I've been putting in some serious architectural work to build this. Also keep in mind that I am a 47yo father and husband who works as a teacher from 7am to 9pm on weekdays, so I don't have a ton of time to do it.  <br>
 **I like to think of AI as an employee, or even a team that I have at my disposal to execute my ideas, so I have more headspace to create them** I've been gaming since the 80's and using Linux since 2002, my first distro was Mandrake, from a CD inserted in a magazine.<br>
 I've been and I will keep on using this app to manage my library. This is a labor of love, for gaming and for Linux. Cheers!
+
+## "NO MAN IS BETTER THAN A  MACHINE, BUT NO MACHINE IS BETTER THAN A MAN WITH A MACHINE" - Paul Tudor Jones [Tudor Investment Corporation]
+
+I would like to address the elephant in the room: **AI**, yeah, although it would be tempting to think that I gave a prompt like *"Make an app like this"* or *"Make a copy of the whatever software"*, and it auto-magically just worked, it couldn't be further from the truth.
+
+It's a very personal project that started just like a way to manage my own Excel CSV games file (which was huge BTW), then I've made many incremental changes, as I was having more and more ideas of what I wanted. Changes that sometimes broke the whole thing. Steam integration was incredibly frustrating, I had to try many different approaches, just to give an example. At one point the code started having truncation issues when compiling to AppImage, due to the size, issues that I needed to address. AI still needs someone to tell it what to do.
+
+It has been a journey, It's been a couple of months now and I've covered a massive amount of ground, from the initial idea, the Python UI design, the database logic, the AppImage compilation, and drafting the manual—we are easily looking at somewhere between 160 to 180+ prompts for the entire project. Not to mention hours of researching for solutions. I've been putting in some serious architectural work to build this. Also keep in mind that I am a 47yo father and husband who works as a teacher from 7am to 9pm on weekdays, so I don't have a ton of time to do it.
+
+I would like to encourage people who **have ideas** to **put them into practice**. I know I don't have the time to do 1600+ lines of code, I just don't, this is a hobby for me, but this in not going to stop me.
+**I like to think of AI as an employee, or even a team that I have at my disposal to execute my ideas, so I have more headspace to create them** If I can conceptualize and architect something, like a building, but I'm not the one laying brick by brick, does it make me less of a creator? I mean, people remember the ones who conceived things, not the ones who actually performed the act of building them. It is what it is.
+
+I've been gaming since the 80's and using Linux since 2002, my first distro was Mandrake, from a CD inserted in a magazine.
+I've been and I will keep on using this app to manage my library. **This is a labor of love, for gaming and for Linux. Cheers!**
+
 
 <div align="center">
   <strong>/// END OF FILE ///</strong><br>
