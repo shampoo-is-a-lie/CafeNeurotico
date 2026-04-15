@@ -93,9 +93,9 @@ Official covers are fine, but sometimes you want something custom. If you have y
 After doing all that (and more), you can create a complete backup, everything included, in a single `.zip` file, and when installing on another machine, just recover it from within the app.
 
 ### Batch fetching & CSV imports
-Want to batch import a lot of games at once but they don't belong to any library? The app will generate a Template CSV file that you can edit and save in any Excel style app, you save it and then import it easily in the app using the Import CSV button.
+Want to batch import a lot of games at once but they don't belong to any library? The app will generate a Template CSV file that you can edit manually and save in any Excel style app, once you saved it you can import it easily in the app using the Import CSV button.
 
-Once imported, use the Batch Fetch commands to command the system to scan your entire library and automatically fill in missing info, artwork, or descriptions all at once.
+Once imported, use the Batch Fetch commands to scan your entire library and automatically fill in missing info, artwork, or descriptions all at once.
 
 
 ---
