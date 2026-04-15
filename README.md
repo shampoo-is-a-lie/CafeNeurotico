@@ -28,7 +28,7 @@ I've avoided menus as much as possible. I want to be able to see anything I need
 
 Before we dive in, let's get a few technical disclaimers out of the way. **This app can be heavy.** It contains a full-fledged Chromium-based web browser, responsible for importing libraries and for navigation. Also, cover images in gallery view consume RAM, so keep those things in mind.
 
-All data is stored in a **single folder** created in the same folder as the app. Only one. Right there. No searching around the system in a sea of config folders.
+All data is stored in a **single folder** created in the same folder as the app. Only one. Right there. No searching around the system in a sea of config folders (nothing wrong with that, I just didn't want it that way).
 
 ### Connecting Your Stores
 Want to import your whole Steam or GOG library? Hit the **Connect** button in the Menu sector on the left.
@@ -37,7 +37,15 @@ Want to import your whole Steam or GOG library? Hit the **Connect** button in th
 
 * **STEAM:** Input your SteamID64 and API key. Boom. The system grabs your library and injects the launch commands automatically.
 * **GOG:** Logs you in through the internal browser, scrapes your owned assets, and pulls them in.
-* **EPIC:** They hate bots. So use the Import CSV tool in the Tools menu after exporting from GOG Galaxy or Heroic..
+* **EPIC:** They hate bots. So use the Import CSV tool in the Tools menu after exporting from GOG Galaxy or Heroic.
+
+### Adding games one by one
+Don't want to import your whole library? No problem. Use the + Add Game button at the top left to inject assets individually.
+
+<img src="images/Add_Game_Button.png" width="300">
+
+* **Automated Add (Steam):** Type a name, and let the system pull the metadata and art from Steam's database.
+* **Manual Add (Blank):** Total blank slate. You fill in the data.
 
 > **⚠️ ATTENTION: EXECUTION PROTOCOL**
 > It's not a launcher per se. You still need Steam, Heroic, or whatever you use to launch your games, since it will execute the command you provide. Anything goes, I mean, you can open your calculator app if you wish so.
@@ -77,12 +85,18 @@ Because the app contains a full-fledged Chromium-based web browser, clicking the
 
 If you just added a blank entry, hit **✨ Auto-Fetch All Missing Data** to scrape the network for developer info, tags, and official artwork. 
 
-If you have your free SteamGridDB API key loaded, hit the **SGDB** button under the cover art to pull down the highest-rated custom covers for your exact game.
+Official covers are fine, but sometimes you want something custom. If you have your free SteamGridDB API key loaded, hit the **SGDB** button under the cover art to pull down the highest-rated custom covers for your exact game.
 
 ![SteamGridDB Covers](images/SteamGridDB_Fetch.jpg)
 
 ### Total System Backup
 After doing all that (and more), you can create a complete backup, everything included, in a single `.zip` file, and when installing on another machine, just recover it from within the app.
+
+### Batch fetching & CSV imports
+Want to batch import a lot of games at once but they don't belong to any library? The app will generate a Template CSV file that you can edit and save in any Excel style app, you save it and then import it easily in the app using the Import CSV button.
+
+Once imported, use the Batch Fetch commands to command the system to scan your entire library and automatically fill in missing info, artwork, or descriptions all at once.
+
 
 ---
 
